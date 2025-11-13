@@ -22,13 +22,21 @@ body {
 }
 
 .navbar {
-  background-color: #3b82f6;
+  background-color: #202020;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 25px;
   padding: 16px 24px;
+  width: 96%;
+  margin: 0 auto;
+  margin-top: 10px;
 }
+.nav-links {
+  font-size: 26px;
+}
+
 
 .logo {
   font-weight: 600;
@@ -37,9 +45,9 @@ body {
 }
 
 .nav-links a {
-  color: white;
+  color: #2563eb;
   text-decoration: none;
-  margin-left: 16px;
+  margin-left: 26px;
   font-weight: 500;
 }
 
