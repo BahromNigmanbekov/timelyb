@@ -54,7 +54,7 @@ background: black;
 }
 
 .nav-links a {
-  color: #2563eb;
+  color: #ffffff;
   text-decoration: none;
   margin-left: 26px;
   font-weight: 500;
@@ -84,6 +84,13 @@ background: black;
 }
 .card:hover {
   background-color: #000000;
+}
+.vaqt{
+  width: 125px;
+  border-radius: 12px;
+  background-color: #3b82f6;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 9px;
 }
 
 .booking-form {

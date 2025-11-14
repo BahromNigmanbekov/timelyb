@@ -5,7 +5,7 @@ function BookingForm({ service, goBack }) {
   const [time, setTime] = useState("");
 
   const handleBook = () => {
-    alert(`You booked ${service.name} on ${date} at ${time}`);
+    alert(`Siz band qildingiz ${service.name} Kuni: ${date} va Vaqti: ${time}`);
   };
 
   return (
