@@ -10,7 +10,7 @@ function BookingForm({ service, goBack }) {
 
   return (
     <div className="booking-form">
-      <button className="back-btn" onClick={goBack}>Back</button>
+      <div className="btn_bc"><button className="back-btn" onClick={goBack}>Back</button></div>
       <h2>{service.name}</h2>
       <p><span>Narxi :</span> {service.price}</p>
       <label>Kunlarni belgilang:</label>
