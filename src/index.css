@@ -5,7 +5,9 @@
 }
 
 body {
-  background-color: #202020;
+ background: #3a56b4;
+  background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(4, 30, 66, 1) 100%);
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
@@ -15,14 +17,19 @@ body {
 .app {
   max-width: 480px;
   margin: auto;
-  background: #1c1c1c;
+  background: rgba(255, 255, 255, 0.181);
+    border-radius: 46px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 24px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0);
   overflow: hidden;
 }
 
 .navbar {
-  background-color: #202020;
+  background-color: #041E42;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -53,7 +60,7 @@ body {
 
 .page-title {
   text-align: center;
-  color: #3b82f6;
+  color: #fff;
   margin: 24px 0;
 }
 
@@ -65,7 +72,7 @@ body {
 }
 
 .card {
-  background-color: rgb(45, 45, 45);
+  background-color: #041E42;
   color: white;
   border-radius: 12px;
   padding: 16px;
