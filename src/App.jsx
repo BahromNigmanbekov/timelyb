@@ -12,22 +12,22 @@ function App() {
   const services = [
     {
       id: 1,
-      name: "Barber",
-      price: "25,000 UZS",
+      name: "Bolalar masaji",
+      price: "205,000 UZS",
       time: "09:00 - 20:00",
       location: "Tashkent City",
     },
     {
       id: 2,
-      name: "Restaurant",
-      price: "50,000 UZS",
+      name: "Bolalar masaji",
+      price: "250,000 UZS",
       time: "10:00 - 23:00",
       location: "Yunusobod",
     },
     {
       id: 3,
-      name: "Car Wash",
-      price: "35,000 UZS",
+      name: "Bolalar masaji",
+      price: "235,000 UZS",
       time: "08:00 - 22:00",
       location: "Chilonzor",
     },

@@ -10,14 +10,14 @@ function BookingForm({ service, goBack }) {
 
   return (
     <div className="booking-form">
-      <button className="back-btn" onClick={goBack}>← Back</button>
+      <button className="back-btn" onClick={goBack}>Back</button>
       <h2>{service.name}</h2>
-      <p>Price: {service.price}</p>
-      <label>Select Date:</label>
-      <input type="date" value={date} onChange={(e) => setDate(e.target.value)} />
-      <label>Select Time:</label>
-      <input type="time" value={time} onChange={(e) => setTime(e.target.value)} />
-      <button className="book-btn" onClick={handleBook}>Book Now</button>
+      <p><span>Narxi :</span> {service.price}</p>
+      <label>Kunlarni belgilang:</label>
+      <input type="date" value={date} onChange={(e) => setDate(e.target.value)} placeholder="data" />
+      <label>Vaqtni belgilang:</label>
+      <input type="time" value={time} onChange={(e) => setTime(e.target.value)} placeholder="time" />
+      <button className="book-btn" onClick={handleBook}>Band qilish</button>
     </div>
   );
 }
