@@ -45,22 +45,27 @@ background: rgb(0, 0, 0);
   margin: 0 auto;
   
 }
-.nav-links {
-  font-size: 22px;
-}
+
 
 
 .logo {
+  background-color: transparent;
+  border: none;
+  color: white;
+
   font-weight: 600;
-  font-size: 23px;
+  font-size: 25px;
   
 }
 
-.nav-links a {
+.nav-links button {
   color: #ffffff;
   text-decoration: none;
-  margin-left: 26px;
+  font-size: 20px;
+  margin-left: 20px;
   font-weight: 500;
+  background-color: transparent;
+  border: none;
 }
 
 .page-title {
@@ -107,8 +112,9 @@ background: rgb(0, 0, 0);
   margin-top: 20px;
 }
 .booking-form label{
-  color: #ffffff;
-  font-size: 18px;
+  color: #3b82f6;
+  font-size: 21px;
+
   font-weight: 500;
 }
 
@@ -132,11 +138,24 @@ span{
   padding: 10px;
   margin: 8px 0 16px;
   border-radius: 10px;
-  background-color: #2a313c;
+  background-color: #ffffff;
+      background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-top: 20px;
+  transition: 0.3s;
+}
+
+.booking-form input:hover,:focus {
+  border: 2px solid #4A9DEC;
+  box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+  background-color: white;
 }
 
 .book-btn {
@@ -157,9 +176,14 @@ span{
 .back-btn{
   margin-right: auto;
   padding: 10px;
-  color: white;
-  background-color: #2a313c;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgb(0, 0, 0);
+  font-weight: ;
+      background: rgb(255, 255, 255);
+    border-radius: 46px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
   width: 120px;
   border-radius: 12px;
   transition: 0.2s;
@@ -167,10 +191,11 @@ span{
 
 .book-btn , .back-btn:hover {
   background-color: #2563eb;
+  color: white;
 }
 
 .dashboard {
-   background: rgb(0, 0, 0);
+   background: #2563eb;
     border-top-left-radius: 46px;
     border-top-right-radius: 46px;
     border-bottom-left-radius: 0px;
@@ -192,14 +217,24 @@ span{
 }
 
 .stat-box {
-  background: #212830;
+      background: rgb(255, 255, 255);
+    border-radius: 46px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 17px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 12px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: all 0.3s;
 }
 
+.stat-box:hover{
+  color: #2563eb;
+  font-size: 26px;
+}
 .footer {
   text-align: center;
   padding: 14px;

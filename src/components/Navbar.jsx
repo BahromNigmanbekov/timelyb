@@ -8,10 +8,11 @@ import { FaPlusCircle } from "react-icons/fa";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h1 className="logo"><IoMenu /></h1>
+      <button className="logo"><IoMenu /></button>
+      <h2>Timely</h2>
       <div className="nav-links">
-        <a href="#"> <FaPlusCircle /></a>
-        <a href="#"> <CgProfile /></a>
+        <button > <FaPlusCircle /></button>
+        <button> <CgProfile /></button>
       </div>
     </nav>
   );
