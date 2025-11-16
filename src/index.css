@@ -5,8 +5,7 @@
 }
 
 body {
-
-background: black;
+background: rgb(0, 0, 0);
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
@@ -17,7 +16,7 @@ background: black;
   
   max-width: 480px;
   margin: auto;
-  background: #656c761a;
+  background: #ffffff;
     border-radius: 46px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
@@ -35,15 +34,15 @@ background: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius:25px ;
+  border-radius: 20px;  
   padding: 16px 24px;
   width: 86%;
   margin: 0 auto;
+  margin-top: 10px;
   
 }
 .nav-links {
-  font-size: 26px;
+  font-size: 20px;
 }
 
 
@@ -62,7 +61,7 @@ background: black;
 
 .page-title {
   text-align: center;
-  color: #fff;
+  color: #000000;
   margin: 24px 0;
 }
 
@@ -74,13 +73,17 @@ background: black;
 }
 
 .card {
-  background-color: #2a313c;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: white;
+     background: rgb(0, 0, 0);
+    border-radius: 46px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 22px;
   padding: 16px;
   transition: 0.3s;
   cursor: pointer;
+  color: white;
 }
 .card:hover {
   background-color: #000000;
@@ -91,6 +94,7 @@ background: black;
   background-color: #3b82f6;
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 9px;
+  color: white;
 }
 
 .booking-form {
@@ -104,7 +108,7 @@ background: black;
 }
 
 .booking-form p {
-  color: #ffffff;
+  color: #4e4343;
   font-size: 21px;
   font-weight: 600;
 }
